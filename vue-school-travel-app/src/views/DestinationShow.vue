@@ -5,7 +5,7 @@
       <GoBack />
       <div class="destination-details">
         <img
-          :src="`/../public/images/${destination.image}`"
+          :src="`/images/${destination.image}`"
           :alt="destination.name"
         />
         <p>{{ destination.description }}</p>

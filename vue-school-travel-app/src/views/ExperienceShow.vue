@@ -2,7 +2,7 @@
   <section>
     <h1>{{ experience.name }}</h1>
     <img
-      :src="`/../public/images/${experience.image}`"
+      :src="`/images/${experience.image}`"
       :alt="experience.name"
     />
     <p>{{ experience.description }}</p>

@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <img :src="`/../public/images/${experience.image}`" :alt="experience.name">
+        <img :src="`/images/${experience.image}`" :alt="experience.name">
         <span class="card_text">
             {{ experience.name }}
         </span>
